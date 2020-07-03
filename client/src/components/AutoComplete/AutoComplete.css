@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100vh;
+}
+.container {
+  height: 100vh;
+}
+.suggestions {
+  z-index: 4;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+.twitter-header {
+  margin-top: 40vh;
+  margin-bottom: 15px;
+  font-size: xx-large;
+}
+.twitter-header span i {
+  color: #1da1f2;
+}
+.custom-button {
+  background-color: #1da1f2;
+  color: #ffffff;
+  font-weight: 600;
+  width: 120px;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  display: block;
+  margin: 0;
+}
+.has-search {
+  position: relative;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+li.borderless {
+  border: none;
+  background-color: #eeeeeeaa;
+  border-top: 0 none;
+}
